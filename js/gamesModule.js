@@ -40,8 +40,8 @@ export default class gamesModule{
                                 <div class="line w-100"></div>
                                 <div class="container ">
                                     <div class="d-flex justify-content-between align-items-center my-2 ">
-                                            <span class="px-2 rounded-2">${api[i].genre}</span>
-                                            <span class="px-2 rounded-2">${api[i].platform}</span>
+                                            <span class="px-2 rounded-2 smallForTwo">${api[i].genre}</span>
+                                            <span class="px-2 rounded-2 smallForTwo">${api[i].platform}</span>
                                     </div>
                                 </div>
                             </div>

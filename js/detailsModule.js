@@ -8,6 +8,9 @@ export default class detailsModule{
             }
         };
         (async function(){
+            $("body").css({
+                "background-color" : "#27282B"
+            })
             const newApi = await fetch(`https://free-to-play-games-database.p.rapidapi.com/api/game?id=${ID}`, options)
             var api = await newApi.json();
             $(".details #imgID").attr("src",api.thumbnail)
